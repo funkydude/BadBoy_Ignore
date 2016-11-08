@@ -1,5 +1,5 @@
 
-local BadBoyIsFriendly, find, tremove = BadBoyIsFriendly, string.find, table.remove
+local BNGetGameAccountInfoByGUID, IsCharacterFriend, find, tremove = BNGetGameAccountInfoByGUID, IsCharacterFriend, string.find, table.remove
 local names = {}
 
 do
@@ -18,14 +18,16 @@ f:SetScript("OnEvent", function(frame, _, addon)
 	local BADBOY_IGNORE, realm = BADBOY_IGNORE, GetRealmName()
 	realm = "-".. realm
 
-	local filter = function(_,event,msg,player,_,_,_,flag,chanid,_,_,_,lineId,guid)
+	local filter = function(_,event,msg,player,_,_,_,flag,chanid,_,_,_,_,guid)
 		if event == "CHAT_MSG_CHANNEL" and (chanid == 0 or type(chanid) ~= "number") then return end --Only scan official custom channels (gen/trade)
-		if BadBoyIsFriendly("", flag, lineId, guid) then return end
+		if not guid then return end
+		local _, characterName = BNGetGameAccountInfoByGUID(guid)
+		if characterName or IsCharacterFriend(guid) or flag == "GM" or flag == "DEV" then return end
 		if not find(player, "-", nil, true) then
 			player = player..realm
 		end
 		if BADBOY_IGNORE[player] then
-			if BadBoyLog then BadBoyLog("Ignore", event, Ambiguate(player, "none"), msg) end
+			if BadBoyLog then BadBoyLog("Ignore", event, player, msg) end
 			return true
 		else
 			for i=1, #names do
