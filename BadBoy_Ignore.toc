@@ -1,0 +1,24 @@
+## Interface: 70100
+## Version: @project-version@
+## Title: BadBoy_Ignore
+## Notes: An infinite ignore list.
+## Notes-frFR: An infinite ignore list.
+## Notes-deDE: An infinite ignore list.
+## Notes-ptBR: An infinite ignore list.
+## Notes-ruRU: An infinite ignore list.
+## Notes-zhCN: An infinite ignore list.
+## Notes-zhTW: An infinite ignore list.
+## Notes-koKR: An infinite ignore list.
+## Notes-esES: An infinite ignore list.
+## Notes-esMX: An infinite ignore list.
+## Notes-itIT: An infinite ignore list.
+## Author: Funkydude
+## Dependencies: BadBoy
+## SavedVariables: BADBOY_IGNORE
+## X-Category: Chat/Communication
+## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
+## X-Curse-Project-ID: badboy_ignore
+
+SimpleOptions.lua
+BadBoy_Ignore.lua
+
