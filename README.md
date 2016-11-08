@@ -3,7 +3,7 @@
 * This plugin does **_not_** report players when chat is removed, it merely hides it.
 
 ## Features
-* Blocks chat from players on the ignore list
+* A simple and infinite ignore list to block chat from players.
 
 ## Download
 https://mods.curse.com/addons/wow/badboy_ignore

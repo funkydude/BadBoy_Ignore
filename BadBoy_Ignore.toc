@@ -1,17 +1,17 @@
 ## Interface: 70100
 ## Version: @project-version@
 ## Title: BadBoy_Ignore
-## Notes: An infinite ignore list.
-## Notes-frFR: An infinite ignore list.
-## Notes-deDE: An infinite ignore list.
-## Notes-ptBR: An infinite ignore list.
-## Notes-ruRU: An infinite ignore list.
-## Notes-zhCN: An infinite ignore list.
-## Notes-zhTW: An infinite ignore list.
-## Notes-koKR: An infinite ignore list.
-## Notes-esES: An infinite ignore list.
-## Notes-esMX: An infinite ignore list.
-## Notes-itIT: An infinite ignore list.
+## Notes: A simple and infinite ignore list to block chat from players.
+## Notes-frFR: A simple and infinite ignore list to block chat from players.
+## Notes-deDE: A simple and infinite ignore list to block chat from players.
+## Notes-ptBR: A simple and infinite ignore list to block chat from players.
+## Notes-ruRU: A simple and infinite ignore list to block chat from players.
+## Notes-zhCN: A simple and infinite ignore list to block chat from players.
+## Notes-zhTW: A simple and infinite ignore list to block chat from players.
+## Notes-koKR: A simple and infinite ignore list to block chat from players.
+## Notes-esES: A simple and infinite ignore list to block chat from players.
+## Notes-esMX: A simple and infinite ignore list to block chat from players.
+## Notes-itIT: A simple and infinite ignore list to block chat from players.
 ## Author: Funkydude
 ## Dependencies: BadBoy
 ## SavedVariables: BADBOY_IGNORE
