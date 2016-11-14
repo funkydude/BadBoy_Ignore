@@ -51,6 +51,8 @@ f:SetScript("OnEvent", function(frame, _, addon)
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_INSTANCE_CHAT_LEADER", filter)
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_SAY", filter)
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", filter)
+	ChatFrame_AddMessageEventFilter("CHAT_MSG_EMOTE", filter)
+	ChatFrame_AddMessageEventFilter("CHAT_MSG_TEXT_EMOTE", filter)
 
 	frame:SetScript("OnEvent", nil)
 	frame:UnregisterEvent("ADDON_LOADED")
