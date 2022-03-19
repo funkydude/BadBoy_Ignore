@@ -1,4 +1,4 @@
-## Interface: 90200
+## Interface: 20503
 ## Version: @project-version@
 ## Title: BadBoy_Ignore
 ## Notes: A simple and infinite ignore list to block chat from players.
