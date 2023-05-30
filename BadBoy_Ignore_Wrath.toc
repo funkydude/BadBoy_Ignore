@@ -5,7 +5,7 @@
 ## Notes-frFR: A simple and infinite ignore list to block chat from players.
 ## Notes-deDE: A simple and infinite ignore list to block chat from players.
 ## Notes-ptBR: A simple and infinite ignore list to block chat from players.
-## Notes-ruRU: A simple and infinite ignore list to block chat from players.
+## Notes-ruRU: Простой и бесконечный список игнорирования для блокировки чата от игроков.
 ## Notes-zhCN: A simple and infinite ignore list to block chat from players.
 ## Notes-zhTW: A simple and infinite ignore list to block chat from players.
 ## Notes-koKR: A simple and infinite ignore list to block chat from players.
