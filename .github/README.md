@@ -6,4 +6,5 @@
 * A simple and infinite ignore list to block chat from players.
 
 ## Download
-https://www.curseforge.com/wow/addons/badboy_ignore
+* <https://www.curseforge.com/wow/addons/badboy_ignore>
+* <https://addons.wago.io/addons/badboy-ignore>
