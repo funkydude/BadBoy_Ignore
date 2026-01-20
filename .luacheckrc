@@ -12,6 +12,7 @@ globals = {
 	"C_FriendList",
 	"ChatFrame_AddMessageEventFilter",
 	"GetRealmName",
+	"issecretvalue",
 
 	-- Options
 	"BadBoy_IgnoreAddMiddle",
