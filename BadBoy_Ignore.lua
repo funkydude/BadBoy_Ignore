@@ -68,3 +68,50 @@ f:SetScript("OnEvent", function(frame, _, addon)
 	frame:UnregisterEvent("ADDON_LOADED")
 end)
 
+function capitalize(s)
+    return (s:gsub("^%l", string.upper))
+end
+
+function SlashCmdList.BBIGNORE(msg)
+	if msg == nil or msg == "" then
+		print("[BadBoy] Player name is required")
+		return
+	end
+
+    local player = capitalize(msg)
+    if not find(player, "-", nil, true) then
+        local realm = GetRealmName()
+        player = player .. "-" .. realm
+    end
+
+	if BADBOY_IGNORE[player] then
+		print("[BadBoy] " .. player .. " is already ignored")
+		return
+	end
+
+    print("[BadBoy] Ignoring " .. player)
+    BADBOY_IGNORE[player] = true
+end
+SLASH_BBIGNORE1 = "/bbi"
+
+function SlashCmdList.BBUNIGNORE(msg)
+	if msg == nil or msg == "" then
+		print("[BadBoy] Player name is required")
+		return
+	end
+
+    local player = capitalize(msg)
+    if not find(player, "-", nil, true) then
+        local realm = GetRealmName()
+        player = player .. "-".. realm
+    end
+
+	if not BADBOY_IGNORE[player] then
+		print("[BadBoy] " .. player .. " isn't ignored")
+		return
+	end
+
+    print("[BadBoy] Unignoring " .. player)
+    BADBOY_IGNORE[player] = nil
+end
+SLASH_BBUNIGNORE1 = "/bbu"
