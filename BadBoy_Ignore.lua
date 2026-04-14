@@ -49,6 +49,7 @@ f:SetScript("OnEvent", function(frame, _, addon)
 			names[#names+1] = player
 		end
 	end
+	local ChatFrame_AddMessageEventFilter = ChatFrameUtil and ChatFrameUtil.AddMessageEventFilter or ChatFrame_AddMessageEventFilter
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", filter)
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_YELL", filter)
 	ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", filter)

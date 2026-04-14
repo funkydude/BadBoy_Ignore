@@ -11,6 +11,7 @@ globals = {
 	"C_BattleNet",
 	"C_FriendList",
 	"ChatFrame_AddMessageEventFilter",
+	"ChatFrameUtil",
 	"GetRealmName",
 	"issecretvalue",
 
