@@ -10,10 +10,10 @@ globals = {
 	"BadBoyLog",
 	"C_BattleNet",
 	"C_FriendList",
-	"ChatFrame_AddMessageEventFilter",
 	"ChatFrameUtil",
 	"GetRealmName",
 	"issecretvalue",
+	"RegionalUniqueNamesEnabled",
 
 	-- Options
 	"BadBoy_IgnoreAddMiddle",
@@ -24,8 +24,4 @@ globals = {
 	"BadBoyIgnoreConfigTitle",
 	"CreateFrame",
 	"GetLocale",
-	"UIDropDownMenu_AddButton",
-
-	-- Classic
-	"BNGetGameAccountInfoByGUID",
 }
