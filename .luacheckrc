@@ -24,4 +24,5 @@ globals = {
 	"BadBoyIgnoreConfigTitle",
 	"CreateFrame",
 	"GetLocale",
+	"UIDropDownMenu_AddButton",
 }
